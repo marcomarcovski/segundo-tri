@@ -1,26 +1,28 @@
-const caixaPrincipal= document.querySelector(".caixa-principal");
-const caixaPerguntas= document.querySelector(".caixa-perguntas");
-const caixaAlternativas= document.querySelector(".caixa-alternativas");
-const caixaResultado= document.querySelector(".caixa-resultado");
-const textoResultado= document.querySelector(".texto-resultado");
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado:"Qual o melhor mapa na opinião do Matheus"
+    enunciado:"Qual o melhor jogador na opinião do Marco",
       alternativas: [
   {
- texto: "Breeze";
-afirmaçao: "afirmaçao";
-}
-{
-  texto: "Sunset";
-
-
-            ]
+ texto: "messi",
+afirmaçao: "afirmaçao"
 },
 {
-    enunciado:"Qual o agente mais divertido de jogar?"
+  texto: "ronaldo",
+  afirmação:"afirmação"
+}
+]
+}
+
+}
+enunciado:"voce gosta de futebol"
       alternativas: [
+        
         "Reyna";
         "Jett";
             ]
@@ -48,11 +50,34 @@ afirmaçao: "afirmaçao";
 },
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
-function mostraPergunta() {
-    perguntaAtual = perguntas[atual];
+function mostraPergunta() {  
+    if (Atual>= perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
@@ -65,5 +90,5 @@ function mostraAlternativas() {
     }
 }
 
-mostraPergunta();
+mostraPergunta();;
             
